@@ -20,11 +20,8 @@ Update the properties of a [microsoftTunnelHealthThreshold](../resources/intune-
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_mstunnel_microsofttunnelhealththreshold_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-mstunnel-microsofttunnelhealththreshold-update-permissions.md)]
 
 ## HTTP Request
 <!-- {

@@ -17,11 +17,8 @@ Read the properties and relationships of a [recommendation](../resources/recomme
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DirectoryRecommendations.Read.All, DirectoryRecommendations.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DirectoryRecommendations.Read.All, DirectoryRecommendations.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "recommendation_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/recommendation-get-permissions.md)]
 
 For delegated scenarios, the admin needs one of the following [Azure AD roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
 - Global administrator

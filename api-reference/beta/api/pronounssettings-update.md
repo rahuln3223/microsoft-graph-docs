@@ -20,11 +20,8 @@ For more information on settings to manage pronouns support, see [Manage pronoun
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-| Delegated (work or school account)     | Organization.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "pronounssettings_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/pronounssettings-update-permissions.md)]
 
 >**Note:** Using delegated permissions for this operation requires the signed-in user to have a global administrator role.
 

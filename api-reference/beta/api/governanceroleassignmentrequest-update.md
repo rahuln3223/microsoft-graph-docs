@@ -24,27 +24,18 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Azure resources
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureResources |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governanceroleassignmentrequest_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governanceroleassignmentrequest-update-permissions.md)]
 
 ### Azure AD
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureAD |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governanceroleassignmentrequest_update_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governanceroleassignmentrequest-update-2-permissions.md)]
 
 ### Groups
 
-|Permission type | Permissions |
-|:-------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureADGroup |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governanceroleassignmentrequest_update_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governanceroleassignmentrequest-update-3-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -20,11 +20,8 @@ Create a new [groupPolicyPresentationValue](../resources/intune-grouppolicy-grou
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_grouppolicy_grouppolicypresentationvalue_create" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-grouppolicy-grouppolicypresentationvalue-create-permissions.md)]
 
 ## HTTP Request
 <!-- {

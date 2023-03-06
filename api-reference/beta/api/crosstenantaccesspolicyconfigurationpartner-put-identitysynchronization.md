@@ -17,11 +17,8 @@ Create a cross-tenant user synchronization policy for a partner-specific configu
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.ReadWrite.CrossTenantAccess|
-|Delegated (personal Microsoft account)|Not applicable|
-|Application|Policy.ReadWrite.CrossTenantAccess|
+<!-- { "blockType": "permissions", "name": "crosstenantaccesspolicyconfigurationpartner_put_identitysynchronization" } -->
+[!INCLUDE [permissions-table](../includes/permissions/crosstenantaccesspolicyconfigurationpartner-put-identitysynchronization-permissions.md)]
 
 The signed-in user must also be assigned the following minimum [directory role](/azure/active-directory/roles/permissions-reference):
 

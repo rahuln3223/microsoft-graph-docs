@@ -23,27 +23,18 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Azure resources
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureResources |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | PrivilegedAccess.Read.AzureResources |
+<!-- { "blockType": "permissions", "name": "governancerolesetting_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governancerolesetting-get-permissions.md)]
 
 ### Azure AD
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureAD |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | PrivilegedAccess.Read.AzureAD |
+<!-- { "blockType": "permissions", "name": "governancerolesetting_get_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governancerolesetting-get-2-permissions.md)]
 
 ### Groups
 
-|Permission type | Permissions |
-|:-------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureADGroup |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | PrivilegedAccess.Read.AzureADGroup |
+<!-- { "blockType": "permissions", "name": "governancerolesetting_get_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governancerolesetting-get-3-permissions.md)]
 
 Besides the permission scope, this API requires the requestor to have at least one role assignment on the resource, which the [governanceRoleSetting](../resources/governancerolesetting.md) belongs to.
 ## HTTP request

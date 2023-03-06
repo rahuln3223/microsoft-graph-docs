@@ -25,35 +25,23 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### To update the profile photo of a contact
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)      |   Contacts.ReadWrite           |
-|Delegated (personal Microsoft account)      |   Not supported.            |
-|Application      |    Contacts.ReadWrite           |
+<!-- { "blockType": "permissions", "name": "profilephoto_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-permissions.md)]
 
 ### To update the profile photo of a group
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)      |   Group.ReadWrite.All           |
-|Delegated (personal Microsoft account)      |   Not supported.            |
-|Application      |    Group.ReadWrite.All           |
+<!-- { "blockType": "permissions", "name": "profilephoto_update_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-2-permissions.md)]
 
 ### To update the profile photo of a team
 
-| Permission Type | Permissions (from least to most privileged)  |
-| --------------- | -------------------------------------------- |
-| Delegated (work or school account)        | TeamSettings.ReadWrite.All |
-| Delegated (personal Microsoft account)    | Not supported.     |
-| Application                               | Not supported. |
+<!-- { "blockType": "permissions", "name": "profilephoto_update_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-3-permissions.md)]
 
 ### To update the profile photo of the signed-in user
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)      |   User.ReadWrite, User.ReadWrite.All           |
-|Delegated (personal Microsoft account)      |   Not supported.            |
-|Application      |    User.ReadWrite.All           |
+<!-- { "blockType": "permissions", "name": "profilephoto_update_4" } -->
+[!INCLUDE [permissions-table](../includes/permissions/profilephoto-update-4-permissions.md)]
 
 > [!NOTE]
 >

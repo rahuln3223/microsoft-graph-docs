@@ -18,11 +18,8 @@ Read the properties and relationships of a [virtualAppointment](../resources/vir
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                            |
-|:---------------------------------------|:---------------------------------------------------------------------------------------|
-| Delegated (work or school account)     | VirtualAppointment.ReadWrite, VirtualAppointment.Read, OnlineMeetings.ReadWrite, OnlineMeetings.Read                                  |
-| Delegated (personal Microsoft account) | Not supported.                                                                         |
-| Application                            | VirtualAppointment.ReadWrite.All, VirtualAppointment.Read.All
+<!-- { "blockType": "permissions", "name": "virtualappointment_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/virtualappointment-get-permissions.md)]
 
 > [!NOTE]
 > Virtual appointment will transition from online meeting permissions to more specific virtual appointment permissions during the preview period. This will give developers more granular control over virtual appointment permissions. We'll provide additional details on when online meeting permissions will no longer be supported before the preview period ends.

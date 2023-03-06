@@ -17,11 +17,8 @@ Update the properties of an [onPremisesDirectorySynchronization](../resources/on
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)  |
-| :------------------------------------- | :------------------------------------------- |
-| Delegated (work or school account)     | OnPremDirectorySynchronization.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                               |
-| Application                            | Not supported.                               |
+<!-- { "blockType": "permissions", "name": "onpremisesdirectorysynchronization_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/onpremisesdirectorysynchronization-update-permissions.md)]
 
 For delegated scenarios, the user needs to be assigned the *Global Administrator* [role](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 

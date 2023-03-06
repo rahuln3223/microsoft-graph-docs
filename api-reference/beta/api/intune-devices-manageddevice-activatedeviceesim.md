@@ -20,11 +20,8 @@ Activate eSIM on the device.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.Read.All, DeviceManagementManagedDevices.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.Read.All, DeviceManagementManagedDevices.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_devices_manageddevice_activatedeviceesim" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-devices-manageddevice-activatedeviceesim-permissions.md)]
 
 ## HTTP Request
 <!-- {

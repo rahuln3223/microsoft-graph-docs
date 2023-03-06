@@ -19,11 +19,8 @@ Get a usage report on shared-use licenses, such as **servicePlanId**, **licenseC
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | CloudPC.Read.All, CloudPC.ReadWrite.All     |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | CloudPC.Read.All, CloudPC.ReadWrite.All     |
+<!-- { "blockType": "permissions", "name": "cloudpcreports_getshareduselicenseusagereport" } -->
+[!INCLUDE [permissions-table](../includes/permissions/cloudpcreports-getshareduselicenseusagereport-permissions.md)]
 
 ## HTTP request
 

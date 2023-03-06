@@ -20,11 +20,8 @@ Deletes a [groupPolicyPresentationTextBox](../resources/intune-grouppolicy-group
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_grouppolicy_grouppolicypresentationtextbox_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-grouppolicy-grouppolicypresentationtextbox-delete-permissions.md)]
 
 ## HTTP Request
 <!-- {

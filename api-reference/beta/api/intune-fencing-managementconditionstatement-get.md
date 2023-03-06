@@ -20,11 +20,8 @@ Read properties and relationships of the [managementConditionStatement](../resou
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_fencing_managementconditionstatement_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-fencing-managementconditionstatement-get-permissions.md)]
 
 ## HTTP Request
 <!-- {

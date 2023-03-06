@@ -22,34 +22,22 @@ One of the following permissions is required to call this API. To learn more, in
 
 >**Note:** This API also requires that the requester have at least one `Active` administrator role assignment (`owner` or `user access administrator`) on the resource.
 
-|Permission type      | Permissions              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureResources  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governancerolesetting_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governancerolesetting-update-permissions.md)]
 ### Azure resources
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureResources |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governancerolesetting_update_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governancerolesetting-update-2-permissions.md)]
 
 ### Azure AD
 
-| Permission type | Permissions |
-|:--------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureAD |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governancerolesetting_update_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governancerolesetting-update-3-permissions.md)]
 
 ### Groups
 
-|Permission type | Permissions |
-|:-------------- |:----------- |
-| Delegated (work or school account) | PrivilegedAccess.ReadWrite.AzureADGroup |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "governancerolesetting_update_4" } -->
+[!INCLUDE [permissions-table](../includes/permissions/governancerolesetting-update-4-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

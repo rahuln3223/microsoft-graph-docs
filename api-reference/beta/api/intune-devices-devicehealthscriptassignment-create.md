@@ -20,11 +20,8 @@ Create a new [deviceHealthScriptAssignment](../resources/intune-devices-devicehe
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_devices_devicehealthscriptassignment_create" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-devices-devicehealthscriptassignment-create-permissions.md)]
 
 ## HTTP Request
 <!-- {

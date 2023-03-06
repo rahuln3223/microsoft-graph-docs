@@ -20,11 +20,8 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### For applications and service principals:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.OwnedBy, Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_restore" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-restore-permissions.md)]
 
 The calling app must be assigned one of the following [Azure AD roles](/azure/active-directory/roles/permissions-reference):
 + Global Administrator
@@ -34,11 +31,8 @@ The calling app must be assigned one of the following [Azure AD roles](/azure/ac
 
 ### For users:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application | User.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_restore_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-restore-2-permissions.md)]
 
 To restore users with privileged administrator roles in delegated scenarios, the app must be assigned with *Directory.AccessAsUser.All* delegated permission, and the calling user must also be assigned a higher privileged administrator role as indicated in [Who can perform sensitive actions](../resources/users.md#who-can-perform-sensitive-actions).
 
@@ -46,19 +40,13 @@ In app-only scenarios, the *User.ReadWrite.All* application permission isn't eno
 
 ### For groups:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Group.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Group.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_restore_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-restore-3-permissions.md)]
 
 ### For administrative units:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | AdministrativeUnit.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | AdministrativeUnit.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_restore_4" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-restore-4-permissions.md)]
 
 
 ## HTTP request

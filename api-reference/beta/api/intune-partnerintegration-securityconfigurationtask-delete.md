@@ -20,11 +20,8 @@ Deletes a [securityConfigurationTask](../resources/intune-partnerintegration-sec
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All, DeviceManagementApps.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All, DeviceManagementApps.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_partnerintegration_securityconfigurationtask_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-partnerintegration-securityconfigurationtask-delete-permissions.md)]
 
 ## HTTP Request
 <!-- {

@@ -19,11 +19,8 @@ Only the **roles** property can be modified this way.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite, Files.ReadWrite.All, Sites.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Files.ReadWrite, Files.ReadWrite.All    |
-|Application | Files.ReadWrite.All, Sites.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "permission_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/permission-update-permissions.md)]
 
 ## HTTP request
 
@@ -52,10 +49,8 @@ For best performance you shouldn't include existing values that haven't changed.
 
 The following properties on these permission types can be modified.
 
-| Permission Type        | Property | Type              | Description                   |
-|:-----------------------|:---------|:------------------|:------------------------------|
-| User                   | roles    | String collection | An array of permission types. |
-| Anonymous Sharing Link | expirationDateTime | DateTimeOffset | A format of yyyy-MM-ddTHH:mm:ssZ of DateTimeOffset for the expiration time of the permission. |
+<!-- { "blockType": "permissions", "name": "permission_update_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/permission-update-2-permissions.md)]
 
 ### Remarks
 Unsupported permission modifications include the following:

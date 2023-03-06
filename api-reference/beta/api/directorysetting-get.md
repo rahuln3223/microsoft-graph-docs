@@ -21,19 +21,13 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### List tenant-wide settings
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directorysetting_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directorysetting-get-permissions.md)]
 
 ### List group-specific settings
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Group.Read.All, Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Group.Read.All, Group.ReadWrite.All  |
+<!-- { "blockType": "permissions", "name": "directorysetting_get_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directorysetting-get-2-permissions.md)]
 
 
 ## HTTP request

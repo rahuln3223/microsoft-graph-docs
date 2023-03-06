@@ -17,11 +17,8 @@ Revert the [voice call authentication method policy](../resources/voiceauthentic
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Policy.ReadWrite.AuthenticationMethod|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Policy.ReadWrite.AuthenticationMethod|
+<!-- { "blockType": "permissions", "name": "voiceauthenticationmethodconfiguration_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/voiceauthenticationmethodconfiguration-delete-permissions.md)]
 
 For delegated scenarios, the administrator needs one of the following [Azure AD roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
 

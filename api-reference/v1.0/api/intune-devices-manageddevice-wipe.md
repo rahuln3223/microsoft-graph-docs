@@ -18,11 +18,8 @@ Wipe a device
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementManagedDevices.PrivilegedOperations.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementManagedDevices.ReadWrite.All, DeviceManagementManagedDevices.PrivilegedOperations.All|
+<!-- { "blockType": "permissions", "name": "intune_devices_manageddevice_wipe" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-devices-manageddevice-wipe-permissions.md)]
 
 ## HTTP Request
 <!-- {

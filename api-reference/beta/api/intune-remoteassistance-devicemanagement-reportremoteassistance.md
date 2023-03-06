@@ -20,11 +20,8 @@ A post call to submit the reporting payload
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementServiceConfig.Read.All, DeviceManagementConfiguration.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementServiceConfig.Read.All, DeviceManagementConfiguration.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_remoteassistance_devicemanagement_reportremoteassistance" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-remoteassistance-devicemanagement-reportremoteassistance-permissions.md)]
 
 ## HTTP Request
 <!-- {

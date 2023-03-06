@@ -20,11 +20,8 @@ Update the properties of a [windowsManagementAppHealthState](../resources/intune
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_devices_windowsmanagementapphealthstate_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-devices-windowsmanagementapphealthstate-update-permissions.md)]
 
 ## HTTP Request
 <!-- {

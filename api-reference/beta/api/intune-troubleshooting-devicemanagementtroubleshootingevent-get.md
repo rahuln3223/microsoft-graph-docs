@@ -18,11 +18,8 @@ Read properties and relationships of the [deviceManagementTroubleshootingEvent](
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementManagedDevices.Read.All, DeviceManagementManagedDevices.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementManagedDevices.Read.All, DeviceManagementManagedDevices.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_troubleshooting_devicemanagementtroubleshootingevent_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-troubleshooting-devicemanagementtroubleshootingevent-get-permissions.md)]
 
 ## HTTP Request
 <!-- {

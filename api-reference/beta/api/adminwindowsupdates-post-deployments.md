@@ -17,11 +17,8 @@ Create a new [deployment](../resources/windowsupdates-deployment.md) object.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|WindowsUpdates.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|WindowsUpdates.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "adminwindowsupdates_post_deployments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/adminwindowsupdates-post-deployments-permissions.md)]
 
 ## HTTP request
 

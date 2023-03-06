@@ -20,11 +20,8 @@ Cancels an already approved instance of an operationApprovalRequest
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.Read.All, DeviceManagementRBAC.Read.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.Read.All, DeviceManagementRBAC.Read.All|
+<!-- { "blockType": "permissions", "name": "intune_rbac_operationapprovalrequest_cancelapproval" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-rbac-operationapprovalrequest-cancelapproval-permissions.md)]
 
 ## HTTP Request
 <!-- {

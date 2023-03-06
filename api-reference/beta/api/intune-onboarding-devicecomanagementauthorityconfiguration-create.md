@@ -20,11 +20,8 @@ Create a new [deviceComanagementAuthorityConfiguration](../resources/intune-onbo
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementServiceConfig.ReadWrite.All, DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementServiceConfig.ReadWrite.All, DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_onboarding_devicecomanagementauthorityconfiguration_create" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-onboarding-devicecomanagementauthorityconfiguration-create-permissions.md)]
 
 ## HTTP Request
 <!-- {

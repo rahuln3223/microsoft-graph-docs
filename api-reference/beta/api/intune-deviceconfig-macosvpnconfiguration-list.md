@@ -20,11 +20,8 @@ List properties and relationships of the [macOSVpnConfiguration](../resources/in
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_deviceconfig_macosvpnconfiguration_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-deviceconfig-macosvpnconfiguration-list-permissions.md)]
 
 ## HTTP Request
 <!-- {

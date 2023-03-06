@@ -17,11 +17,8 @@ Get a list of the [taskFileAttachment](../resources/taskfileattachment.md) objec
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Tasks.Read, Tasks.ReadWrite|
-|Delegated (personal Microsoft account)|Tasks.Read, Tasks.ReadWrite|
-|Application|Tasks.Read.All, Tasks.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "todotask_list_attachments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/todotask-list-attachments-permissions.md)]
 
 ## HTTP request
 

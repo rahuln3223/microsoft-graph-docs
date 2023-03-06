@@ -18,11 +18,8 @@ Create a new [targetedManagedAppConfiguration](../resources/intune-mam-targetedm
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementApps.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementApps.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_mam_targetedmanagedappconfiguration_create" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-mam-targetedmanagedappconfiguration-create-permissions.md)]
 
 ## HTTP Request
 <!-- {

@@ -18,11 +18,8 @@ Read properties and relationships of the [deviceManagement](../resources/intune-
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementServiceConfig.Read.All, DeviceManagementServiceConfig.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementServiceConfig.Read.All, DeviceManagementServiceConfig.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_enrollment_devicemanagement_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-enrollment-devicemanagement-get-permissions.md)]
 
 ## HTTP Request
 <!-- {

@@ -18,11 +18,8 @@ Deletes a [termsAndConditions](../resources/intune-companyterms-termsandconditio
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementServiceConfig.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementServiceConfig.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_companyterms_termsandconditions_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-companyterms-termsandconditions-delete-permissions.md)]
 
 ## HTTP Request
 <!-- {

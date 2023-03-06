@@ -17,11 +17,8 @@ List the [teamTemplateDefinition](../resources/teamstemplate.md) objects associa
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamTemplates.Read|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|TeamTemplates.Read.All
+<!-- { "blockType": "permissions", "name": "teamtemplate_list_definitions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/teamtemplate-list-definitions-permissions.md)]
 
 ## HTTP request
 

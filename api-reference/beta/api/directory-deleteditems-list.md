@@ -23,35 +23,23 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### For applications and service principals:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.Read.All, Application.ReadWrite.All, Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-list-permissions.md)]
 
 ### For users:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application | User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_list_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-list-2-permissions.md)]
 
 ### For groups:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Group.Read.All, Group.ReadWrite.All, Directory.Read.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Group.Read.All, Group.ReadWrite.All, Directory.Read.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_list_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-list-3-permissions.md)]
 
 ### For administrative units:
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | AdministrativeUnit.Read.All, AdministrativeUnit.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | AdministrativeUnit.Read.All, AdministrativeUnit.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directory_deleteditems_list_4" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directory-deleteditems-list-4-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

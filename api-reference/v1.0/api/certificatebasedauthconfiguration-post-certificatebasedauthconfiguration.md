@@ -20,11 +20,8 @@ Create a new [certificateBasedAuthConfiguration](../resources/certificateBasedAu
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Organization.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application    | Organization.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "certificatebasedauthconfiguration_post_certificatebasedauthconfiguration" } -->
+[!INCLUDE [permissions-table](../includes/permissions/certificatebasedauthconfiguration-post-certificatebasedauthconfiguration-permissions.md)]
 
 For delegated scenarios, the calling user must have the *Global Administrator* [Azure AD role](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles).
 

@@ -20,27 +20,18 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Delete a user
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-delete-permissions.md)]
 
 ### Delete a group
 
-| Permission type                        | Permissions (from least to most privileged)                                                 |
-| :------------------------------------- | :------------------------------------------------------------------------------------------ |
-| Delegated (work or school account)     | Group.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                                                                              |
-| Application                            | Group.ReadWrite.All                             |
+<!-- { "blockType": "permissions", "name": "directoryobject_delete_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-delete-2-permissions.md)]
 
 ### Delete an application or service principal
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Application.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "directoryobject_delete_3" } -->
+[!INCLUDE [permissions-table](../includes/permissions/directoryobject-delete-3-permissions.md)]
 
 ## HTTP request
 

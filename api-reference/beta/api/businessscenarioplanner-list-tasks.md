@@ -17,11 +17,8 @@ Get a list of the [businessScenarioTask](../resources/businessscenariotask.md) o
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|BusinessScenarioData.Read.OwnedBy, BusinessScenarioData.ReadWrite.OwnedBy|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|BusinessScenarioData.Read.OwnedBy, BusinessScenarioData.ReadWrite.OwnedBy|
+<!-- { "blockType": "permissions", "name": "businessscenarioplanner_list_tasks" } -->
+[!INCLUDE [permissions-table](../includes/permissions/businessscenarioplanner-list-tasks-permissions.md)]
 
 ## HTTP request
 

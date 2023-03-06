@@ -18,11 +18,8 @@ Gets diagnostics validation status for a given user.
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementApps.Read.All, DeviceManagementApps.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementApps.Read.All, DeviceManagementApps.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_mam_user_getmanagedappdiagnosticstatuses" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-mam-user-getmanagedappdiagnosticstatuses-permissions.md)]
 
 ## HTTP Request
 <!-- {

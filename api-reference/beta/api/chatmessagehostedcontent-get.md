@@ -21,21 +21,15 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Permissions for channel
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| ChannelMessage.Read.All, Group.Read.All**, Group.ReadWrite.All** |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChannelMessage.Read.Group, ChannelMessage.Read.All, Group.Read.All**, Group.ReadWrite.All** |
+<!-- { "blockType": "permissions", "name": "chatmessagehostedcontent_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessagehostedcontent-get-permissions.md)]
 
 > **Note**: Permissions marked with ** are supported only for backward compatibility. We recommend that you update your solutions to use an alternative permission listed in the previous table and avoid using these permissions going forward.
 
 ### Permissions for chat
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| Chat.Read, Chat.ReadWrite|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application| ChatMessage.Read.Chat, Chat.Read.All, Chat.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "chatmessagehostedcontent_get_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessagehostedcontent-get-2-permissions.md)]
 
 > **Note**: The _ChannelMessage.Read.Group_ and _ChatMessage.Read.Chat_ permissions use [resource-specific consent]( https://aka.ms/teams-rsc).
 

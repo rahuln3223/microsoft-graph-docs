@@ -18,11 +18,8 @@ Create a new [windows81GeneralConfiguration](../resources/intune-deviceconfig-wi
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_deviceconfig_windows81generalconfiguration_create" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-deviceconfig-windows81generalconfiguration-create-permissions.md)]
 
 ## HTTP Request
 <!-- {

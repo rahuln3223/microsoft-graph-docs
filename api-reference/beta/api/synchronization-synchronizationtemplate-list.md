@@ -18,11 +18,8 @@ List the synchronization templates associated with a given application or servic
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Synchronization.Read.All, Synchronization.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Application.ReadWrite.OwnedBy, Synchronization.Read.All, Synchronization.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "synchronization_synchronizationtemplate_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/synchronization-synchronizationtemplate-list-permissions.md)]
 
 ### HTTP Request
 <!-- { "blockType": "ignored" } -->

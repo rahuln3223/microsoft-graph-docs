@@ -21,19 +21,13 @@ One of the following permissions is required to call this API. To learn more, in
 
 ### Permissions for channel
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| ChannelMessage.Send,  |
-|Delegated (personal Microsoft account)| Not supported. |
-|Application| Not supported. |
+<!-- { "blockType": "permissions", "name": "chatmessage_setreaction" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-setreaction-permissions.md)]
 
 ### Permissions for chat
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-|Delegated (work or school account)| Chat.ReadWrite, ChatMessage.Send |
-|Delegated (personal Microsoft account)| Not supported. |
-|Application| Not supported. |
+<!-- { "blockType": "permissions", "name": "chatmessage_setreaction_2" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chatmessage-setreaction-2-permissions.md)]
 
 ## HTTP request
 

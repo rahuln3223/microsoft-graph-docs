@@ -20,11 +20,8 @@ Create a new [androidDeviceOwnerImportedPFXCertificateProfile](../resources/intu
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_deviceconfig_androiddeviceownerimportedpfxcertificateprofile_create" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-deviceconfig-androiddeviceownerimportedpfxcertificateprofile-create-permissions.md)]
 
 ## HTTP Request
 <!-- {

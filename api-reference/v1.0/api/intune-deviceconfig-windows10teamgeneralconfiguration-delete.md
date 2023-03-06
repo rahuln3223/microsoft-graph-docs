@@ -18,11 +18,8 @@ Deletes a [windows10TeamGeneralConfiguration](../resources/intune-deviceconfig-w
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DeviceManagementConfiguration.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DeviceManagementConfiguration.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "intune_deviceconfig_windows10teamgeneralconfiguration_delete" } -->
+[!INCLUDE [permissions-table](../includes/permissions/intune-deviceconfig-windows10teamgeneralconfiguration-delete-permissions.md)]
 
 ## HTTP Request
 <!-- {

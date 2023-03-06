@@ -17,11 +17,8 @@ Dismiss an [impactedResources](../resources/impactedresource.md) object and upda
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|DirectoryRecommendations.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|DirectoryRecommendations.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "impactedresource_dismiss" } -->
+[!INCLUDE [permissions-table](../includes/permissions/impactedresource-dismiss-permissions.md)]
 
 For delegated scenarios, the admin needs one of the following [Azure AD roles](/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles):
 - Global administrator

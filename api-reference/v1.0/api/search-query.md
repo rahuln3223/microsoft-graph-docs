@@ -18,11 +18,8 @@ Runs the query specified in the request body. Search results are provided in the
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference). 
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Mail.Read, Calendars.Read, Files.Read.All, Sites.Read.All, ExternalItem.Read.All, Acronym.Read.All, Bookmark.Read.All,  ChannelMessage.Read.All, Chat.Read |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Files.Read.All, Sites.Read.All |
+<!-- { "blockType": "permissions", "name": "search_query" } -->
+[!INCLUDE [permissions-table](../includes/permissions/search-query-permissions.md)]
 
 ## HTTP request
 
